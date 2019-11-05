@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'autmsheetview'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of autmsheetview.'
+  s.summary          = 'this lib clone SpreadsheetView. build with xcode 5'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,20 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "This lib clone SpreadsheetView. build with xcode 5. origin lib there: https://github.com/kishikawakatsumi/SpreadsheetView . Thank Kishikawa Katsumi, kishikawakatsumi@mac.com
+    "
 
-  s.homepage         = 'https://github.com/lecuong.bka@gmail.com/autmsheetview'
+  s.homepage         = 'https://github.com/autm-syl/autmsheetview'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lecuong.bka@gmail.com' => 'lecuong.bka@gmail.com' }
-  s.source           = { :git => 'https://github.com/lecuong.bka@gmail.com/autmsheetview.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/autm-syl/autmsheetview.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'autmsheetview/Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'autmsheetview' => ['autmsheetview/Assets/*.png']

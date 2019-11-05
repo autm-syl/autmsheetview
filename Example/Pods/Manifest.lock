@@ -1,0 +1,16 @@
+PODS:
+  - autmsheetview (0.1.0)
+
+DEPENDENCIES:
+  - autmsheetview (from `../`)
+
+EXTERNAL SOURCES:
+  autmsheetview:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  autmsheetview: 6e9efec283cba12079beaee04f3981d73a7ca0a3
+
+PODFILE CHECKSUM: bda7f32c4d57b2dac80f6447d504a1ea507036f0
+
+COCOAPODS: 1.8.0.beta.1
