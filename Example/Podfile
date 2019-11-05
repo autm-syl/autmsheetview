@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'autmsheetview_Example' do
+  pod 'autmsheetview', :path => '../'
+
+  target 'autmsheetview_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
