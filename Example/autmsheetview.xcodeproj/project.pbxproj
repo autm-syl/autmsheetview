@@ -45,7 +45,7 @@
 		AC2F40916768F53A7B5881B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AE35ABB05B237039EDDDD76D /* Pods-autmsheetview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autmsheetview_Example.release.xcconfig"; path = "Target Support Files/Pods-autmsheetview_Example/Pods-autmsheetview_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB1378ECD73451A5AECE07E2 /* Pods_autmsheetview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autmsheetview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBE7D4EE8F8882FC80770CCB /* autmsheetview.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = autmsheetview.podspec; path = ../autmsheetview.podspec; sourceTree = "<group>"; };
+		CBE7D4EE8F8882FC80770CCB /* autmsheetview.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = autmsheetview.podspec; path = ../autmsheetview.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FB70A5C3ACCF24D6F579B243 /* Pods_autmsheetview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autmsheetview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

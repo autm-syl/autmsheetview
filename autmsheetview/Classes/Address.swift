@@ -14,8 +14,8 @@ struct Address: Hashable {
     let rowIndex: Int
     let columnIndex: Int
 
-    var hashValue: Int {
-        return 32768 * rowIndex + columnIndex
+    func hash(into hasher: inout Hasher) {
+        return hasher.combine(32768 * rowIndex + columnIndex)
     }
 
     static func ==(lhs: Address, rhs: Address) -> Bool {
