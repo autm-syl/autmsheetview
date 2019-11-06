@@ -2,6 +2,8 @@
 # git add -A && git commit -m "Release 0.1.0"
 # git tag '0.1.0'
 # git push --tags
+# pod lib lint
+# pod trunk push
 # Be sure to run `pod lib lint autmsheetview.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -11,7 +13,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'autmsheetview'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'this lib clone SpreadsheetView. build with xcode 5'
 
 # This description is used to generate tags and improve search results.
